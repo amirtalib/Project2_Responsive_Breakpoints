@@ -1,0 +1,558 @@
+/***************
+Global
+***************/
+
+body, footer {
+    background-color: #fff;
+    font-family: 'Rubik', sans-serif;
+    width: 320px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+/***************
+Student Name: Header
+***************/
+
+.headerSection {
+    background-color: #f9f9f9;
+    border-bottom: 2px solid #e7e7e7;
+    content: "";
+    display: block;
+    margin: 1em auto 0;
+    padding-bottom: 1em;
+    width: auto;
+}
+
+.headerSection h1 {
+    margin-top: 0;
+    padding-top: 1.25em;
+    text-align: center;
+}
+
+.headerSection h1 span {
+    color: #2572aa;
+    font-family: 'Lobster', cursive, sans-serif;
+}
+
+.headerSection ul {
+    margin-bottom: 1em;
+}
+
+.studentName {
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/***************
+Student Name: Nav
+***************/
+
+.navBar {
+    margin-bottom: 1em;
+    width: 310px;
+}
+
+.navBar ul {
+    list-style-position: inside;
+    padding-left: 15px;
+}
+
+.navBar li {
+    background: #ffd376;
+    font-size: small;
+    font-weight: 500;
+    letter-spacing: .15em;
+    list-style: none;
+    margin-bottom: .25em;
+    padding-bottom: .75em;
+    padding-top: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    width: 280px;
+}
+
+.navBar li a:hover {
+    background: lightgrey;
+    text-decoration: underline;
+}
+
+
+/***************
+Student Name: Blurb
+***************/
+
+.blurb {
+    background-color: #f9f9f9;
+    width: auto;
+}
+
+.blurbImage img {
+    display: block;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: .5em;
+    padding-top: .50em;
+    width: 250px;
+}
+
+.blurbCopy {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.blurbCopy p {
+    color: #897d8e;
+    font-size: 1em;
+    font-weight: lighter;
+    line-height: 1.35;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+
+/***************
+Portfolio: Header
+***************/
+
+.portfolioHeader {
+    font-size: small;
+    font-weight: 500;
+    letter-spacing: .15em;
+    padding-bottom: 1.75em;
+    padding-top: 1.75em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/***************
+  Portfolio: Items
+***************/
+
+.portfolio {
+    width: 320px;
+}
+
+.portfolioItems ul {
+    list-style-position: inside;
+    margin: auto;
+    padding-left: 10px;
+}
+
+.portfolioItems li {
+    color: #4a4a4a;
+    list-style-position: inside;
+    list-style: none;
+}
+
+.portfolioItems ul li img {
+    height: 200px;
+    margin-left: 2.5px;
+    padding-left: 0;
+    width: 295px;
+}
+
+.portfolioItems p {
+    text-align: center;
+}
+
+.portfolioItems p:nth-child(3) {
+    color: #897d8e;
+    font-size: .925em;
+    font-weight: lighter;
+    line-height: 1.35;
+    padding-bottom: 2em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/***************
+Testimonial: Image
+***************/
+
+.testimonial {
+    text-align: center;
+}
+
+.testimonialImage {
+    width: 90%;
+    height: 50%;
+    margin: 0 10px 0 10px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+.testimonial p {
+    font-size: small;
+    font-weight: 500;
+    letter-spacing: .15em;
+    padding-bottom: 1.75em;
+    padding-top: 1.75em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/***************
+Contact
+***************/
+
+.contact {
+    background-color: #fafafa;
+    display: block;
+    padding-top: 50px;
+    text-align: center;
+    width: auto;
+}
+
+.contact p:nth-child(1) {
+    color: #4a4a4a;
+    font-size: small;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.contact p:nth-child(2) {
+    color: #897d8e;
+    font-size: 1em;
+    font-weight: lighter;
+    line-height: 1.35;
+    padding-bottom: 2em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contact p:nth-child(3), p:nth-child(4) {
+    color: #897d8e;
+    font-size: .9em;
+    font-weight: lighter;
+    line-height: 1.35;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contact p span {
+    color: #7f7f7f;
+    font-weight: 500;
+}
+
+.contact p:nth-child(4) {
+    border-bottom: 1px solid #e7e7e7;
+    content: "";
+    margin: 1em auto 0;
+    padding-bottom: 60px;
+    width: 80%;
+}
+
+
+/***************
+Footer
+***************/
+
+.footerContainer {
+    background-color: #fafafa;
+    font-size: small;
+    font-weight: 500;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 15px;
+}
+
+.footerContainer ul {
+    list-style: none;
+    padding-left: 15px;
+}
+
+.footerContainer ul li a:hover {
+    background-color: #ffd376;
+    border-radius: 15%;
+    border: 1px solid #2572aa;
+}
+
+.footerName {
+    float: left;
+}
+
+.footerName p {
+    margin: 0;
+}
+
+.footerTotop {
+    float: right;
+    padding-right: 15px;
+    text-transform: uppercase;
+}
+
+.footerHome, .footerPortfolio, .footerContact {
+    display: none;
+}
+
+
+/***************
+Media Queries: Breakpoints
+***************/
+
+
+/********** MIN-WIDTH 768 (Tablet) **********/
+
+@media screen and (min-width: 768px) {
+    /**********
+      Global
+    **********/
+    body {
+        width: auto;
+    }
+    /**********
+      Student Name: Header
+     **********/
+    .headerSection {
+        background-color: #fff;
+        display: inline;
+    }
+    /**********
+      Student Name: Nav
+    **********/
+    .navBar {
+        background-color: #fff;
+        margin-bottom: 1em;
+        width: auto;
+    }
+    .navBar ul {
+        border-bottom: 2px solid #e7e7e7;
+        content: "";
+        margin-bottom: 0;
+        margin: 1em auto 0;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .navBar li {
+        display: inline-block;
+        width: 140px;
+    }
+    /**********
+      Student Name: Blurb
+    **********/
+    .blurb {
+        background-color: #fff;
+        display: inline-block;
+    }
+    .blurbImage img {
+        float: right;
+        height: auto;
+        margin-right: 40px;
+        width: 300px;
+    }
+    .blurbCopy {
+        font-size: 1.15em;
+        margin-left: 10px;
+        word-spacing: .1em;
+    }
+    .blurbCopy p {
+        text-align: left;
+    }
+    /**********
+        Portfolio: Items
+    **********/
+    .portfolio {
+        width: 758px;
+    }
+    .portfolioItems ul {
+        text-align: center;
+    }
+    .portfolioItems li {
+        color: #4a4a4a;
+        display: inline-block;
+        list-style-position: inside;
+        list-style: none;
+        width: 350px;
+    }
+    .portfolioItems ul li img {
+        height: 225px;
+        margin-right: 10px;
+        width: 345px;
+    }
+    .portfolioItems p:nth-child(3) {
+        color: #897d8e;
+        font-size: 1em;
+        font-weight: lighter;
+        letter-spacing: .25px;
+        line-height: 25px;
+        word-spacing: 1px;
+    }
+    /**********
+      Testimonial
+      **********/
+    .testimonialImage {
+        width: 400px;
+        height: 225px;
+    }
+    /**********
+      Contact
+      **********/
+    .contact {
+        background-color: #f9f9f9;
+    }
+    .contact p:nth-child(1) {
+        padding-bottom: 30px;
+    }
+    .contact p:nth-child(2) {
+        margin: 0 auto;
+        max-width: 470px;
+        min-width: 470px;
+        text-align: center;
+        word-spacing: 0.25em;
+    }
+    /**********
+      Footer
+    **********/
+    .footerContainer {
+        padding-bottom: 80px;
+        padding-top: 15px;
+        width: auto;
+    }
+    .footerTotop {
+        display: none;
+    }
+    .footerHome, .footerPortfolio, .footerTestimonial, .footerContact {
+        display: inline;
+        text-transform: uppercase;
+    }
+    .footerName {
+        padding-left: 50px;
+    }
+    .footerHome {
+        padding-left: 200px;
+    }
+    .footerPortfolio, .footerTestimonial, .footerContact {
+        padding-left: 40px;
+    }
+    .footerContact {
+        padding-right: 10px;
+    }
+}
+
+
+/********** MIN-WIDTH 1024 (Desktop) **********/
+
+@media screen and (min-width: 1024px) {
+    /**********
+    Global
+  **********/
+    body, footer {
+        background-color: #f9f9f9;
+        width: 1024px;
+    }
+    /**********
+    Student Name: Header
+   **********/
+    .headerSection {
+        background-color: #f9f9f9;
+        display: inline-block;
+        width: 1024px;
+    }
+    .headerSection h1 {
+        float: left;
+        margin-top: 0;
+        padding: 50px 0 0 55px;
+    }
+    /**********
+    Student Name: Nav
+  **********/
+    .navBar {
+        background-color: #f9f9f9;
+        margin-bottom: 1em;
+        width: auto;
+    }
+    .navBar ul {
+        margin: 0;
+        padding-right: 20px;
+        padding-top: 50px;
+        text-align: right;
+        border-bottom: 0;
+    }
+    .navBar li {
+        background: #ffd376;
+    }
+    /**********
+    Student Name: Blurb
+  **********/
+    .blurb {
+        background-color: #f9f9f9;
+    }
+    .blurbImage img {
+        margin-right: 50px;
+        width: 375px;
+    }
+    .blurbCopy {
+        padding-left: 55px;
+    }
+    /**********
+    Portfolio: Header
+  **********/
+    .portfolio {
+        background-color: #fff;
+        margin: 20px 25px 20px 20px;
+        width: 984px;
+    }
+    /**********
+      Portfolio: Items
+  **********/
+    .portfolioItems li {
+        width: 300px;
+    }
+    .portfolioItems ul li img {
+        height: 160px;
+        margin-right: 10px;
+        width: 280px;
+    }
+    .portfolioItems p:nth-child(3) {
+        font-size: .9em;
+        letter-spacing: 0;
+        word-spacing: 0;
+    }
+    /**********
+      Testimonial
+      **********/
+    .testimonialImage {
+        width: 40%;
+        height: 20%;
+    }
+    /**********
+    Contact
+    **********/
+    .contact {
+        background-color: #f9f9f9;
+    }
+    .contact p:nth-child(2) {
+        margin: 0 auto;
+        max-width: 470px;
+        min-width: 470px;
+        text-align: center;
+        word-spacing: 0.25em;
+    }
+    .contact p:nth-child(4) {
+        width: 85%;
+    }
+    /**********
+    Footer
+  **********/
+    .footerContainer {
+        background-color: #f9f9f9;
+        padding-bottom: 40px;
+    }
+    .footerName {
+        padding-left: 40px;
+    }
+    .footerHome {
+        padding-left: 470px;
+    }
+}
